@@ -17,6 +17,7 @@ pip install -r requirements.txt
 
 #### 2.目录结构
 目录结构解析：
+```Shell
 $ tree
 .
 ├── README.md            // 使用说明
@@ -34,7 +35,7 @@ $ tree
 ├── test_market.py       // test_开头的文件为用例文件
 ├── test_transfer.py     // test_开头的文件为用例文件
 └── test_wallet.py       // test_开头的文件为用例文件
-
+```
 #### 3.执行用例
 
 ```Shell
