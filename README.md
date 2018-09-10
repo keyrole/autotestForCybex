@@ -1,5 +1,5 @@
 ## 测试用例脚本说明
-该仓库测试用例主要用于测试Cybex链的基本功能。
+该仓库测试用例脚本主要用于Cybex链的功能测试，可用Smoke测试、DailyBuilding、集成测试、系统测试等。
 
 #### 1. 环境搭建
 请先安装好python3和pip3
@@ -50,3 +50,6 @@ pytest --timeout=0.5         // 设置超时时间
 pytest --reruns 5 --reruns-delay 1        // 设置失败重跑，重跑次数为5次，每次重跑delay 1s
 pytest -v -s test_account.py              // 跑指定的用例文件，展示详细信息
 ```
+
+#### 4.后续计划
+持续更新，请关注。
